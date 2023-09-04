@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    width:300px;
+    height:auto;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display:flex;
+    flex-grow:1.5;
+    justify-content: center;
+
+}
+
+li{
+    display:flex;
+    padding-left:30px;
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+.first-container{
+    display:flex;
+    color:white;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding-bottom:100px;
+    margin:0;
+    width:100%;
+
+}
+
+.header{
+    display:flex;
+    padding:10px 0px 100px;
+}
+
+.header-logo{
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.below-header{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    margin-right:50px;
+    width:30%;
+    font-size:18px;
+    color:#e5e7eb;
+    gap:10px;
+}
+
+.beginning-header{
+    font-size:48px;
+    font-weight:extra bold;
+
+}
+
+.above-button{
+    background-color: #3882f6;
+    border:0;
+    border-radius: 10px;
+    color:#e5e7eb;
+    width:30%;
+    height: 30px;
+}
+
+.second-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:0 50px 100px;
+}
+
+.delivery-header{
+    text-align: center;
+    padding:25px;
+    font-size:36px;
+    font-weight:extra-bold;
+}
+
+.images-with-text-container{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+
+}
+
+.images-with-text{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    width:200px;
+
+}
+.box{
+    border:6px solid #3882f6;
+    height:200px;
+    width:200px;
+    align-self:center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.third-container{
+    background-color: #e5e7eb;
+    padding:50px 300px;
+}
+
+.third-container-quote{
+    display:flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+}
+
+.quote-sayer{
+    margin-left:auto;
+}
+
+.fourth-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:80px;
+}
+
+.blue-box{
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    padding:50px;
+    background-color: #3882f6;
+    border-radius:10px;
+}
+
+.fourth-text{
+    margin-right:30px;
+    color:white;
+    font-size:14px;
+}
+
+.fourth-header{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.bottom-button{
+    width:100px;
+    background-color: #3882f6;
+    border:2px solid #e5e7eb;
+    color:white;
+    border-radius:10px;
+}
